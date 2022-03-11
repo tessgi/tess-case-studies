@@ -1,0 +1,23 @@
+site_name: TESS Case Studies
+nav:
+    - Home : README.md
+    - Case Studies:
+      - notebooks/pixel-level-detrending.ipynb
+
+theme:
+  name: "material"
+  icon:
+    logo: material/pencil
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: black
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+repo_url: https://github.com/tessgi/tess-case-studies
+plugins:
+  - include-markdown
+  - search
+  - mkdocs-jupyter:
+      execute: False

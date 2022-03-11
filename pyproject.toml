@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "casestudies"
+version = "0.1.0"
+description = ""
+authors = ["Christina Hedges <christina.l.hedges@nasa.gov>"]
+
+[tool.poetry.dependencies]
+python =  ">=3.8,<4.0"
+mkdocs-material = "^8.2.5"
+mkdocstrings = "^0.18.1"
+mkdocs-autolinks-plugin = "^0.4.0"
+mkdocs-include-markdown-plugin = "^3.3.0"
+mkdocs-jupyter = "^0.20.0"
+jupyterlab = "^3.3.1"
+mkdocs = "^1.2.3"
+lightkurve = "^2.1.0"
+nbmake = "^1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
