@@ -21,3 +21,15 @@ plugins:
   - search
   - mkdocs-jupyter:
       execute: False
+  - social
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/NASA_TESS
+      name: TESS on twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/tessgi
+      name: TESS GI on GitHub
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:tesshelp@bigbang.gsfc.nasa.gov
+      name: Email us!

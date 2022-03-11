@@ -1,4 +1,5 @@
 .python-version
 __pycache__
 tests/
-src/run_nb.py
+src/casestudies/run_nb.py
+.ipynb_checkpoints
