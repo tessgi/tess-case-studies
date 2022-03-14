@@ -21,7 +21,6 @@ plugins:
   - search
   - mkdocs-jupyter:
       execute: False
-  - social
 extra:
   social:
     - icon: fontawesome/brands/twitter
