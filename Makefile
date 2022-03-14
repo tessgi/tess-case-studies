@@ -8,4 +8,4 @@ serve:
 	poetry run mkdocs serve
 
 deploy:
-		poetry run mkdocs gh-deploy
+		poetry run mkdocs gh-deploy --force
